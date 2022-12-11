@@ -12,9 +12,9 @@ namespace ShopOnline.Models.Dtos
         public string Name { get; set; }
         public string Description { get; set; } 
         public string ImageURL { get; set; }
-        public int Price { get; set; }
+        public decimal Price { get; set; }
         public int Qty { get; set; }
         public int CategoryId { get; set; }
-        public int CategoryName { get; set; }
+        public string CategoryName { get; set; }
     }
 }
